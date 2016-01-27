@@ -25,9 +25,6 @@ The rules function (found on line 28) does most of the hard work in the simulati
 
 The rulecode is then converted into a list of 8 binary bits. We use the 3 bit number as an index to access an element from this array. The result is the state of the new cell. It looks something like this:
 
-3 bit                   New Cell
-neighbourhood           State
-
 000             --->    0
 
 001             --->    1
