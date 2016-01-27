@@ -27,13 +27,21 @@ The rulecode is then converted into a list of 8 binary bits. We use the 3 bit nu
 
 3 bit                   New Cell
 neighbourhood           State
+
 000             --->    0
+
 001             --->    1
+
 010             --->    0
+
 011             --->    1
+
 100             --->    1
+
 101             --->    0
+
 110             --->    1
+
 111             --->    0
 
 In the above example the rulecode is 90, which in binary is 01011010, as is seen above in the states of the new cells.
